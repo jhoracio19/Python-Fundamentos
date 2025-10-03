@@ -13,15 +13,26 @@ class Swimmer:
     def do_something(self):
         print("Swim Swim")
 
-class Duck(Flyer, Swimmer):
+class Duck:
+    
+    def __init__(self):
+        self.flyer = Flyer()
+        self.swimer = Swimmer()
+    
     def quack(self):
         print("Quack!")
+    
+    def start_fly(self):
+        self.flyer.fly() 
+    
+    def star_swim(self):
+        self.swimer.swim()
 
 donald = Duck()
-donald.fly()
-donald.swim()
+donald.start_fly()
+donald.star_swim()
 donald.quack()
-donald.do_something()
+# donald.do_something()
 
 # MRO (Method Resolution Order)
-print(Duck.__mro__)
+# print(Duck.__mro__)
