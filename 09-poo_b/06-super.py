@@ -33,6 +33,7 @@ class Cat(Animal):
             super().sound()
             print(f'{self.name} dice: Miau!')
 
+
 firulais = Dog('Bonnie', 1, "Beagle")
 firulais.sound()
 firulais.info()
