@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Naomi\\",
+        "edad": 21,
+        "correo": "naomihhgrz@gmail.com",
+        "password": "1234567890"
+    },
+    {
+        "nombre": "Horacio",
+        "edad": 22,
+        "correo": "jhoracio19@hotmail.com",
+        "password": "12345678900"
+    }
+]
